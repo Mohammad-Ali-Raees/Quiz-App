@@ -1,0 +1,56 @@
+body{
+   background-color: #1e1e1e;
+}
+
+.card{
+    margin: 170px 0;
+    background-color: white !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.card-body{
+    background-color: white !important;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.radioLabel{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+.btn-dark{
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.display-5{
+    font-size: 30px;
+}
+
+.score {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.feedback {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.retake-btn {
+    margin-top: 30px;
+}
+input,label{
+    cursor: pointer;
+}
+.Retake{
+    padding: 10px 40px;
+    border: 1px solid #DDDDDD;
+    font-weight: 600;
+}
